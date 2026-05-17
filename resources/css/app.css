@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+/* Improve layout alignment for RTL pages without changing component markup. */
+html[dir='rtl'] body {
+    direction: rtl;
+    text-align: right;
+}
+
+html[dir='rtl'] .space-x-8 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 1;
+}
