@@ -24,6 +24,11 @@ Book Store is a full-stack Laravel e-commerce application for browsing books, fi
 - Admin area with CRUD for books, categories, authors, publishers, and users
 - Authorization gates/middleware for protected admin routes
 
+## Database Diagram
+Short description: This diagram shows the core database entities and relationships used by the bookstore application.
+
+![Book Store Database Diagram](db.png)
+
 ## The Process
 1. Visitor browses books from the gallery and uses search/filters.
 2. Visitor opens a book details page and can submit a rating.
@@ -31,6 +36,10 @@ Book Store is a full-stack Laravel e-commerce application for browsing books, fi
 4. User proceeds to checkout and completes purchase.
 5. Purchased items appear in My Products.
 6. Admin users manage inventory and metadata from the admin dashboard.
+
+Short description: This diagram illustrates the end-to-end user flow from browsing and rating books to checkout and post-purchase management.
+
+![Book Store Workflow](workflow.png)
 
 ## Running The Project
 1. Clone the repository:
